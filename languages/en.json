@@ -1,0 +1,8 @@
+{
+  "DEATHMARK.Settings.HitPath.Name": "Path to changing value",
+  "DEATHMARK.Settings.HitPath.Hint": "The property path to the value which will change with each update",
+  "DEATHMARK.Settings.UnlinkedStatusIcon.Name": "Death Mark (unlinked token)",
+  "DEATHMARK.Settings.UnlinkedStatusIcon.Hint": "The icon to be used for the status on an unlinked token",
+  "DEATHMARK.Settings.LinkedStatusIcon.Name": "Death Mark (linked token)",
+  "DEATHMARK.Settings.LinkedStatusIcon.Hint": "The icon to be used for the status on a linked token"
+}

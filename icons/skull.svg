@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>skull-svg</title>
+	<defs>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f1" ><feDropShadow dx="-23.382685902179844" dy="13.499999999999998" stdDeviation="5.416666666666667" flood-color="#000000" flood-opacity=".8"/></filter>
+	</defs>
+	<style>
+		.s0 { filter: url(#f1);fill: #ffffff;stroke: #000000;paint-order:stroke fill markers;stroke-linejoin: round;stroke-width: 8 } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" fill-rule="evenodd" class="s0" d="m496 166c0.6 58.6-45 120-45 150 0 45 14.1 47.1 15 75 0.6 17-90 45-90 45v60h-240v-60c-42-13-90-30-90-45 0-30 15-30 15-75 0-60-45-90-45-150 0-90 120-150 240-150 120 0 240 60 240 150zm-390 90c0 33.1 26.9 60 60 60 33.1 0 60-26.9 60-60 0-33.1-26.9-60-60-60-33.1 0-60 26.9-60 60zm180 0c0 33.1 26.9 60 60 60 33.1 0 60-26.9 60-60 0-33.1-26.9-60-60-60-33.1 0-60 26.9-60 60zm-75 120c0 30 0 30 15 30h60c15 0 15 0 15-30 0-15-30-75-45-75-15 0-45 60-45 75z"/>
+	</g>
+</svg>

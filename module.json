@@ -1,0 +1,60 @@
+{
+  "id": "deathmark",
+  "title": "Death Mark",
+  "description": "Automatically Mark Tokens Dead",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "authors": [
+    {
+      "name": "winterwulf",
+      "url": "https://github.com/LeafWulf/",
+      "discord": "winterwulf#3118",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "compatibility": {
+          "minimum": "4.8.3"
+        },
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/deathmark.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/LeafWulf/deathmark",
+  "manifest": "https://github.com/LeafWulf/deathmark/releases/latest/download/module.json",
+  "download": "https://github.com/LeafWulf/deathmark/releases/download/1.0.1/module.zip",
+  "license": "https://github.com/LeafWulf/deathmark/blob/master/LICENSE",
+  "readme": "https://github.com/LeafWulf/deathmark/blob/master/README.md",
+  "bugs": "https://github.com/LeafWulf/deathmark/issues",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://raw.githubusercontent.com/LeafWulf/deathmark/master/readme/icon.png",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/LeafWulf/deathmark/master/readme/cover.png",
+      "loop": false,
+      "flags": {}
+    }
+  ]
+}
