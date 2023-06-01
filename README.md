@@ -4,17 +4,18 @@
 
 # Death Mark
 
-When installed, this module will automatically mark tokens with a configurable status effect when they run out of health.  
-The status effect name and icon can be set by the user, and a different effect can be used for linked or unlinked tokens (e.g. dead vs dying).
+When installed, this module will automatically mark tokens with a configurable overlay when they run out of health.  
+The status effect icon can be set by the user, and a different setting can be used for linked or unlinked tokens (e.g. dead vs dying).
 
 ## Functions
 
-The module is set up out-of-the-box for Pathfinder 2e only which use this path for an actor's HP (`system.attributes.hp.value`).  There are settings to configure which will allow the attribute path being monitored to be changed, as well as the check (so e.g. if your system requires marking a token dead/dying when their `wounds` are greater than their `maxWounds`, that can be done).  More complex setups (e.g. "a token is dead if each of its 6 stats is marked") are not supported.
+Death Mark adds an overlay icon (that can be changed in settings) to tokens that reach 0 HP.
+The module is set up out-of-the-box for Pathfinder 2e only which use this path for an actor's HP (`system.attributes.hp.value`).
 
 ## Settings
 
 ## Dependencies
-System Pathfinder 2E v4.1.3
+System Pathfinder 2E v4.8.3
 
 ## Known Issues
 So far none.
@@ -30,6 +31,4 @@ You can read the changelog here: [CHANGELOG.md](/CHANGELOG.md)
 
 ## Attributions
 
-Icons from game-icons.net  
-
-Bleeding Wound and Pirate grave icon by [Lorc](https://lorcblog.blogspot.com/) under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/), from http://game-icons.net
+Icons from game-icons.net
